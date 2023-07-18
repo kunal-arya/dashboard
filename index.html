@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>Dashboard</title>
+</head>
+<body>
+    <section class="menu-section" id="menu-section">
+        <div class="menu-header">
+            <button class="hamburger-btn" id="hamburger">
+                <img class="hamburger-icon" src="./assets/hamburger.svg" alt="hamburger icon" />
+            </button>
+            <img class="logo-icon" src="./assets/logo.png" alt="logo icon" />
+        </div>
+
+        <div class="menu-links">
+            <p>Manage</p>
+            <div>
+                <a href="#">Moderate</a>
+                <a href="#">Tag</a>
+                <a href="#">Compliance</a>
+                <a href="#">Payments</a>
+                <a href="#">Advance Settings</a>
+            </div>
+        </div>
+
+        <div class="menu-links">
+            <p>Users</p>
+            <div>
+                <a href="#">Admin</a>
+                <a href="#">Client</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+
+        <div class="menu-links">
+            <p>Engagement</p>
+            <div>
+                <a href="#" class="selected-link">Projects</a>
+                <a href="#">Calls</a>
+                <a href="#">Calendar</a>
+            </div>
+        </div>
+
+        <div class="menu-links">
+            <p>Experts</p>
+            <div>
+                <a href="#">Expert Search</a>
+                <a href="#">Value Chain</a>
+            </div>
+        </div>
+
+    </section>
+    <div class="website-content">
+        <header>
+            <nav class="nav">
+                <div class="hamburger-para-container">
+                    <button class="hamburger-btn hamburger-outside-hidden" id="hamburger-outside">
+                        <img class="hamburger-icon" src="./assets/hamburger.svg" alt="hamburger icon" />
+                    </button>
+                    <p class="nav_para">Project View</p>
+                </div>
+                <div class="search">
+                    <img class="search-icon" src="./assets/search.svg" alt="search" />
+                    <input class="search-bar" type="search" name="search-icon" id="search-icon"
+                        placeholder="Search By Name,Expertise,Status">
+                </div>
+                <button class="admin-dropdown">
+                    <div class="admin">
+                        <img class="admin-icon" src="./assets/user.png" alt="user-admin icon" />
+                    </div>
+                    <p>Vijay Sharma</p>
+                    <img class="sort-down-icon" src="./assets/sort_down.png" alt="sort-down icon" />
+                </button>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="icons-section">
+                <a href="#" class="back-project-link">
+                    <img class="left-arrow-icon" src="./assets/left-arrow.png" alt="left-arrow icon" />
+                    <p>Back to Project</p>
+                </a>
+                <div class="icons-container">
+                    <button class="circle-icons circle-1">A <span class="tooltip ">Agenda</span></button>
+        
+                    <button class="circle-icons circle-2">PE+
+                        <span class="tooltip ">Add PE</span>
+                    </button>
+                    <button class="circle-icons circle-3">CE+<span class=" tooltip">Add CE</span></button>
+                    <button class="circle-icons">
+                        AE <span class=" tooltip ">Associate Expert Engagement</span>
+                    </button>
+                    <button class="circle-icons">
+                        G <span class=" tooltip ">Expert Geography</span>
+                    </button>
+                    <button class="circle-icons call-history-icon-container">
+                        <img class="call-history-icon" src="./assets/call-history.png" alt="Call History Icon" />
+                        <span class=" tooltip ">Log New Call</span>
+                    </button>
+                    <button class="circle-icons">
+                        CC+
+                        <span class=" tooltip ">Client Contact</span>
+                    </button>
+                    <button class="circle-icons link-icon-container">
+                        <img class="link-icon" src="./assets/link-icon.png" alt="link icon" />
+                    </button>
+                    <a href="#" class="link-wide link-reopen">Reopen</a>
+                    <a href="#" class="link-wide link-close">Close Project</a>
+                </div>
+            </section>
+        
+            <section class="project-details-section">
+                <div class="project-details-heading">
+                    <div class="project-name">
+                        <h3>Project Name One</h3>
+                        <div>
+                            <img class="id-badge-icon" src="./assets/id-badge.svg" alt="id-badge Icons">
+                            <small>MA6337</small>
+                        </div>
+                    </div>
+                    <div class="Project-heading-containers">
+                        <div class="container revenue-container">
+                            <small>Revenue</small>
+                            <p>$2000.00</p>
+                        </div>
+                        <div class="container">
+                            <small>Calls</small>
+                            <p><a href="#">143</a></p>
+                        </div>
+                        <div class="container">
+                            <small>Status</small>
+                            <p>Status</p>
+                        </div>
+                    </div>
+        
+                    <button class="pencil-icon-container">
+                        <img class="pencil-icon" src="./assets/pencil.svg" alt="pencil icon" />
+                    </button>
+                </div>
+                <div class="project-table">
+                    <table class="table-1">
+                        <tr>
+                            <td>Research Executive:</td>
+                            <td>Sachin Pandey</td>
+                        </tr>
+                        <tr>
+                            <td>Account Manager:</td>
+                            <td>Sachin Pandey</td>
+                        </tr>
+                        <tr>
+                            <td>Client contact:</td>
+                            <td>Vinay Tripathi</td>
+                        </tr>
+                        <tr>
+                            <td>POC:</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Casecode:
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Billing Address:
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>Created On:</td>
+                            <td>27/11/2022</td>
+                        </tr>
+                        <tr>
+                            <td>Recieved On:</td>
+                            <td>27/11/2022</td>
+                        </tr>
+                        <tr>
+                            <td>Closed On:</td>
+                            <td>_ _</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>Agenda/Description</td>
+                            <td><button class="plus-button">+</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        
+            <section class="pe-mapping-section">
+                <h3 class="pe-mapping-heading"><a href="#">PE Mapping</a></h3>
+                <div class="pe-mapping-containers">
+                    <div class="mapping-container">
+                        <div class="mapping-tags tag-invited">Invited</div>
+                        <div class="details">
+                            <div class="name-container">
+                                <img src="./assets/image-1.jpg" alt="Mir Azhar Image" />
+                                <p>Mir Azhar</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-3.png" alt="Riya Sharma Image" />
+                                <p>Riya Sharma</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-4.png" alt="Anil Sharma Image" />
+                                <p>Anil Sharma</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-2.jpg" alt="Vijay Kumar Image" />
+                                <p>Vijay Kumar</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-5.png" alt="Manoj Verma Image" />
+                                <p>Manoj Verma</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-6.png" alt="Atul Gupta Image" />
+                                <p>Atul Gupta</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mapping-container">
+                        <div class="mapping-tags tag-shared">Shared</div>
+                        <div class="details">
+                            <div class="name-container">
+                                <img src="./assets/image-4.png" alt="Anil Sharma Image" />
+                                <p>Anil Sharma</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-2.jpg" alt="Vijay Kumar Image" />
+                                <p>Vijay Kumar</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-5.png" alt="Manoj Verma Image" />
+                                <p>Manoj Verma</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mapping-container">
+                        <div class="mapping-tags tag-shortlisted">Shortlisted</div>
+                        <div class="details">
+                            <div class="name-container">
+                                <img src="./assets/image-2.jpg" alt="Vijay Kumar Image" />
+                                <p>Vijay Kumar</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-5.png" alt="Manoj Verma Image" />
+                                <p>Manoj Verma</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mapping-container">
+                        <div class="mapping-tags tag-scheduled">Scheduled</div>
+                        <div class="details">
+                            <div class="name-container">
+                                <img src="./assets/image-2.jpg" alt="Vijay Kumar Image" />
+                                <p>Vijay Kumar</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-5.png" alt="Manoj Verma Image" />
+                                <p>Manoj Verma</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mapping-container">
+                        <div class="mapping-tags tag-completed">Completed</div>
+                        <div class="details">
+                            <div class="name-container">
+                                <img src="./assets/image-5.png" alt="Manoj Verma Image" />
+                                <p>Manoj Verma</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="ce-mapping-section">
+                <h3 class="ce-mapping-heading"><a href="#">CE Mapping</a></h3>
+                <div class="ce-mapping-containers">
+                    <div class="mapping-container">
+                        <div class="mapping-tags tag-identified">Identified</div>
+                        <div class="details">
+                            <div class="name-container">
+                                <img src="./assets/image-1.jpg" alt="Mir Azhar Image" />
+                                <p>Mir Azhar</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-3.png" alt="Riya Sharma Image" />
+                                <p>Riya Sharma</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-4.png" alt="Anil Sharma Image" />
+                                <p>Anil Sharma</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-2.jpg" alt="Vijay Kumar Image" />
+                                <p>Vijay Kumar</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-5.png" alt="Manoj Verma Image" />
+                                <p>Manoj Verma</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mapping-container">
+                        <div class="mapping-tags tag-contacted">Contacted</div>
+                        <div class="details">
+                            <div class="name-container">
+                                <img src="./assets/image-4.png" alt="Anil Sharma Image" />
+                                <p>Anil Sharma</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-2.jpg" alt="Vijay Kumar Image" />
+                                <p>Vijay Kumar</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-5.png" alt="Manoj Verma Image" />
+                                <p>Manoj Verma</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mapping-container">
+                        <div class="mapping-tags tag-refused">Refused</div>
+                        <div class="details">
+                            <div class="name-container">
+                                <img src="./assets/image-2.jpg" alt="Vijay Kumar Image" />
+                                <p>Vijay Kumar</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-5.png" alt="Manoj Verma Image" />
+                                <p>Manoj Verma</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mapping-container">
+                        <div class="mapping-tags tag-on-boarding">On - Boarding</div>
+                        <div class="details">
+                            <div class="name-container">
+                                <img src="./assets/image-2.jpg" alt="Vijay Kumar Image" />
+                                <p>Vijay Kumar</p>
+                            </div>
+                            <div class="name-container">
+                                <img src="./assets/image-5.png" alt="Manoj Verma Image" />
+                                <p>Manoj Verma</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mapping-container">
+                        <div class="mapping-tags tag-confirmed">Confirmed</div>
+                        <div class="details">
+                            <div class="name-container">
+                                <img src="./assets/image-5.png" alt="Manoj Verma Image" />
+                                <p>Manoj Verma</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+</body>
+</html>
